@@ -1,5 +1,3 @@
-
-
 <article class="product">
 
 <header>
@@ -22,7 +20,11 @@
       Details &raquo;
     <% end %>
   </footer>
-
+  <% if product.quantity == 0 %>
+  <aside class="sold-out">
+    <div>SOLD OUT</div>
+  </aside>
+  <% end %>
   <aside class="price">
     <%= humanized_money_with_symbol product.price %>
   </aside>
