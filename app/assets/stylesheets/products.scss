@@ -1,3 +1,33 @@
+h1.admin-dashboard {
+  color: rgb(82, 146, 189);
+}
+
+.admin-stats {
+  margin-top: 50px;
+}
+
+.admin-stats h3 span {
+  color: rgb(101, 182, 101);
+  padding-left: 7px;
+}
+
+.order-summary h4.thank-you {
+  font-size: 30px;
+  color: rgb(101, 182, 101);
+}
+
+.order-summary h4.summary {
+  font-size: 23px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  opacity: 0.65;
+}
+
+.order-summary h4.email {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 8px;
+}
 main section.products-index,
 main section.categories-show {
 
@@ -62,6 +92,8 @@ main section.categories-show {
         font-size: 0.8em;
         color: white;
       }
+
+  
 
       &:hover {
 
